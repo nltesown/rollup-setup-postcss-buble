@@ -1,0 +1,37 @@
+@import "normalize.css";
+@import "./base.css";
+
+body {
+  margin: 2px;
+  background-color: var(--color-white);
+}
+
+h1,
+h2 {
+  color: var(--color-green);
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: var(--color-medium);
+}
+
+a {
+  color: var(--color-dark);
+  text-decoration: underline;
+}
+
+.container {
+  lost-center: 1200px;
+  outline: solid 1px var(--color-dark);
+}
+
+section {
+  lost-utility: clearfix;
+
+  &>div {
+    lost-column: 1/6;
+    background-color: var(--color-green);
+  }
+}

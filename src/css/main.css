@@ -3,7 +3,7 @@
 
 body {
   margin: 2px;
-  background-color: var(--color-white);
+  background-color: var(--color-green);
 }
 
 h1,
@@ -23,15 +23,17 @@ a {
 }
 
 .container {
-  lost-center: 1200px;
-  outline: solid 1px var(--color-dark);
+  background-color: var(--color-white);
+  min-height: 40vh;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
 section {
   lost-utility: clearfix;
 
-  &>div {
-    lost-column: 1/6;
+  & > div {
+    lost-column: 1/8 8 8px flexbox;
     background-color: var(--color-green);
   }
 }
